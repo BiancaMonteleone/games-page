@@ -1,9 +1,9 @@
 import { Injectable, signal } from '@angular/core';
 import { createClient, SupabaseClient, Session } from '@supabase/supabase-js';
 
-const SUPABASE_URL = 'https://krvvcmhozcmlckjhuxoh.supabase.co';
+const SUPABASE_URL = 'https://sgmruhifuiztymrutrkb.supabase.co';
 const SUPABASE_KEY =
-  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtydnZjbWhvemNtbGNramh1eG9oIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTc1NDQ0MDcsImV4cCI6MjA3MzEyMDQwN30.KDnEyvu0UGI_KFdlTV84XMq5KO5JZjj-I3d7NJxPTrk';
+  'sb_publishable_zocFwrN05EOl9_1raSh7iA_ipPnXXdH';
 
 @Injectable({
   providedIn: 'root',
